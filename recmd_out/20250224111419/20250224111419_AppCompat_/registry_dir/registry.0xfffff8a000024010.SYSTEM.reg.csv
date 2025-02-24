@@ -1,0 +1,25 @@
+﻿CacheEntryPosition,BatchKeyPath,ProgramName,BatchValueName,ModifiedTime
+0,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\Session Manager\AppCompatCache,C:\Windows\system32\LogonUI.exe,AppCompatCache,2010-11-21 03:24:09.5725262
+1,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\Session Manager\AppCompatCache,C:\Windows\System32\svchost.exe,AppCompatCache,2009-07-14 01:39:46.5030000
+2,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\Session Manager\AppCompatCache,C:\Windows\system32\vssvc.exe,AppCompatCache,2010-11-21 03:23:55.3609012
+3,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\Session Manager\AppCompatCache,C:\WINDOWS\SYSTEM32\reg.exe,AppCompatCache,2009-07-14 01:39:29.4210000
+4,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\Session Manager\AppCompatCache,C:\WINDOWS\SYSTEM32\SETUPUGC.EXE,AppCompatCache,2009-07-14 01:39:39.1080000
+5,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\Session Manager\AppCompatCache,C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorsvw.exe,AppCompatCache,2009-06-10 20:39:58.8567349
+6,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\Session Manager\AppCompatCache,C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorsvw.exe,AppCompatCache,2009-06-10 21:23:09.2514876
+7,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\Session Manager\AppCompatCache,C:\Windows\WinSxS\amd64_netfx-clrgc_b03f5f7f11d50a3a_6.1.7601.17514_none_ad7a390fa131c970\clrgc.exe,AppCompatCache,2010-11-21 03:24:15.4693366
+8,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\Session Manager\AppCompatCache,C:\Windows\bfsvc.exe,AppCompatCache,2010-11-21 03:24:22.8481495
+9,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\Session Manager\AppCompatCache,C:\Windows\System32\netsh.exe,AppCompatCache,2009-07-14 01:39:25.2090000
+10,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\Session Manager\AppCompatCache,C:\Windows\system32\DrvInst.exe,AppCompatCache,2009-07-14 01:39:07.4720000
+11,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\Session Manager\AppCompatCache,C:\Windows\system32\sppsvc.exe,AppCompatCache,2010-11-21 03:23:56.4841032
+0,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\Session Manager\AppCompatCache,C:\Windows\system32\LogonUI.exe,AppCompatCache,2010-11-21 03:24:09.5725262
+1,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\Session Manager\AppCompatCache,C:\Windows\System32\svchost.exe,AppCompatCache,2009-07-14 01:39:46.5030000
+2,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\Session Manager\AppCompatCache,C:\Windows\system32\vssvc.exe,AppCompatCache,2010-11-21 03:23:55.3609012
+3,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\Session Manager\AppCompatCache,C:\WINDOWS\SYSTEM32\reg.exe,AppCompatCache,2009-07-14 01:39:29.4210000
+4,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\Session Manager\AppCompatCache,C:\WINDOWS\SYSTEM32\SETUPUGC.EXE,AppCompatCache,2009-07-14 01:39:39.1080000
+5,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\Session Manager\AppCompatCache,C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorsvw.exe,AppCompatCache,2009-06-10 20:39:58.8567349
+6,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\Session Manager\AppCompatCache,C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorsvw.exe,AppCompatCache,2009-06-10 21:23:09.2514876
+7,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\Session Manager\AppCompatCache,C:\Windows\WinSxS\amd64_netfx-clrgc_b03f5f7f11d50a3a_6.1.7601.17514_none_ad7a390fa131c970\clrgc.exe,AppCompatCache,2010-11-21 03:24:15.4693366
+8,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\Session Manager\AppCompatCache,C:\Windows\bfsvc.exe,AppCompatCache,2010-11-21 03:24:22.8481495
+9,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\Session Manager\AppCompatCache,C:\Windows\System32\netsh.exe,AppCompatCache,2009-07-14 01:39:25.2090000
+10,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\Session Manager\AppCompatCache,C:\Windows\system32\DrvInst.exe,AppCompatCache,2009-07-14 01:39:07.4720000
+11,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\Session Manager\AppCompatCache,C:\Windows\system32\sppsvc.exe,AppCompatCache,2010-11-21 03:23:56.4841032

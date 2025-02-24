@@ -1,0 +1,8 @@
+﻿Timestamp,BatchKeyPath,FileName,BatchValueName,Path1,Path2
+2009-07-14 04:53:25.7960181,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows\CurrentVersion\App Paths\table30.exe,table30.exe,Multiple,,
+2009-07-14 04:53:25.7960181,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows\CurrentVersion\App Paths\pbrush.exe,pbrush.exe,Multiple,%SystemRoot%\System32\mspaint.exe,%SystemRoot%\System32
+2009-07-14 04:53:25.7960181,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows\CurrentVersion\App Paths\setup.exe,setup.exe,Multiple,,
+2009-07-14 04:53:25.7960181,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows\CurrentVersion\App Paths\install.exe,install.exe,Multiple,,
+2025-02-05 05:13:23.4599354,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows\CurrentVersion\App Paths\cmmgr32.exe,cmmgr32.exe,Multiple,,
+2009-07-14 04:53:25.7960181,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows\CurrentVersion\App Paths\wab.exe,wab.exe,Multiple,%ProgramFiles%\Windows Mail\wab.exe,%ProgramFiles%\Windows Mail
+2009-07-14 04:53:25.7960181,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows\CurrentVersion\App Paths\wabmig.exe,wabmig.exe,Multiple,%ProgramFiles%\Windows Mail\wabmig.exe,

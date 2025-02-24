@@ -1,0 +1,19 @@
+﻿ValueName,BatchKeyPath,ValueData,BatchValueName,ValueDataRaw
+Bias,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\TimeZoneInformation,-480,Bias,4294966816
+DaylightBias,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\TimeZoneInformation,-60,DaylightBias,4294967236
+DaylightName,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\TimeZoneInformation,"@tzres.dll,-591",DaylightName,"@tzres.dll,-591"
+DaylightStart,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\TimeZoneInformation,"Month 0, week of month 0, day of week 0, Hours:Minutes:Seconds:Milliseconds 0:0:0:0",DaylightStart,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+StandardBias,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\TimeZoneInformation,0,StandardBias,0
+StandardName,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\TimeZoneInformation,"@tzres.dll,-592",StandardName,"@tzres.dll,-592"
+StandardStart,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\TimeZoneInformation,"Month 0, week of month 0, day of week 0, Hours:Minutes:Seconds:Milliseconds 0:0:0:0",StandardStart,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+TimeZoneKeyName,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\TimeZoneInformation,Singapore Standard Time,TimeZoneKeyName,Singapore Standard Time
+ActiveTimeBias,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet001\Control\TimeZoneInformation,-480,ActiveTimeBias,4294966816
+Bias,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\TimeZoneInformation,-480,Bias,4294966816
+DaylightBias,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\TimeZoneInformation,-60,DaylightBias,4294967236
+DaylightName,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\TimeZoneInformation,"@tzres.dll,-591",DaylightName,"@tzres.dll,-591"
+DaylightStart,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\TimeZoneInformation,"Month 0, week of month 0, day of week 0, Hours:Minutes:Seconds:Milliseconds 0:0:0:0",DaylightStart,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+StandardBias,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\TimeZoneInformation,0,StandardBias,0
+StandardName,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\TimeZoneInformation,"@tzres.dll,-592",StandardName,"@tzres.dll,-592"
+StandardStart,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\TimeZoneInformation,"Month 0, week of month 0, day of week 0, Hours:Minutes:Seconds:Milliseconds 0:0:0:0",StandardStart,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+TimeZoneKeyName,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\TimeZoneInformation,Singapore Standard Time,TimeZoneKeyName,Singapore Standard Time
+ActiveTimeBias,CMI-CreateHive{2A7FB991-7BBE-4F9D-B91E-7CB51D4737F5}\ControlSet002\Control\TimeZoneInformation,-480,ActiveTimeBias,4294966816

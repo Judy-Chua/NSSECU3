@@ -1,0 +1,10 @@
+﻿Timestamp,BatchKeyPath,KeyName,BatchValueName,DisplayName,DisplayVersion,Publisher,InstallDate,InstallSource,InstallLocation,UninstallString
+2009-07-14 04:53:26.1548187,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows\CurrentVersion\Uninstall\IE40,IE40,Multiple,,,,,,,
+2009-07-14 04:53:26.1548187,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows\CurrentVersion\Uninstall\DirectDrawEx,DirectDrawEx,Multiple,,,,,,,
+2009-07-14 04:53:26.1548187,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager,Connection Manager,Multiple,,,,,,,
+2009-07-14 04:53:26.1548187,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook,AddressBook,Multiple,,,,,,,
+2025-02-04 14:04:16.8502347,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows\CurrentVersion\Uninstall\{EE0A4225-C799-46F8-BF8C-33794E24547E},{EE0A4225-C799-46F8-BF8C-33794E24547E},Multiple,Exterro FTK Imager,4.7.3.81,Exterro,20250204,C:\Users\User\AppData\Local\Temp\{D16F91F5-AD5B-4879-A4F9-09919A61B108}\,C:\Program Files\AccessData\,MsiExec.exe /X{EE0A4225-C799-46F8-BF8C-33794E24547E}
+2009-07-14 04:53:25.7960181,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE40,IE40,Multiple,,,,,,,
+2009-07-14 04:53:25.7960181,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DirectDrawEx,DirectDrawEx,Multiple,,,,,,,
+2009-07-14 04:53:25.7960181,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager,Connection Manager,Multiple,,,,,,,
+2009-07-14 04:53:25.7960181,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook,AddressBook,Multiple,,,,,,,
