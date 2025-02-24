@@ -8,7 +8,7 @@ Volatility 2.6.1 Python Script
 5) Processes dumped .evtx files with EvtxECmd
 
 Author: CHUA, HA, MISAGAL, TELOSA
-Date: 2025-02-20
+Date: 2025-02-24
 """
 
 import os
@@ -193,8 +193,8 @@ def process_evtx_with_evtxecmd(evtx_directory, evtxecmd_path, evtx_output_folder
     except subprocess.CalledProcessError as e:
         print(f"[ERROR] EvtxECmd failed for files in '{evtx_directory}':\n{e}")
 
-
-def read_csv(folder_path):
+    
+def read_csv_files(folder_path):
     all_data = []
     for file in os.listdir(folder_path):
         if file.endswith(".csv"):
@@ -204,20 +204,22 @@ def read_csv(folder_path):
 
     if all_data:
         return pd.concat(all_data, ignore_index=True)
-    return None
-
+    return pd.DataFrame()
 
 def combining_files(folder1, folder2, output_file):
-    df1 = read_csv(folder1)
-    df2 = read_csv(folder2)
+    df1 = read_csv_files(folder1)
+    df2 = read_csv_files(folder2)
 
-    with pd.ExcelWriter(output_file) as writer:
-        if df1 is not None:
-            df1.to_excel(writer, sheet_name="RECmd Output", index=False)
-        if df2 is not None:
-            df2.to_excel(writer, sheet_name="EvtxECmd Output", index=False)
-            
-    print(f"Successfully combined file saved as {output_file}")
+    with open(output_file, "w", encoding="utf-8", newline="") as file_open:
+        file_open.write("RECmd Output\n")
+        if not df1.empty:
+            df1.to_csv(file_open, index=False, lineterminator="\n")
+
+        file_open.write("\n\nEvtxECmd Output\n")
+        if not df2.empty:
+            df2.to_csv(file_open, index=False, lineterminator="\n")
+    
+    print(f"Successfully combined file saved as {output_file}\n")
 
 
 def filter_lines(output):
@@ -328,7 +330,7 @@ def show_help():
     print(" change Memory <filename>  = Changes current memory file name to <filename>")
     print("    *** Kindly include file type")
     print(" change CSV <filename>     = Changes current csv file name to <filename>")
-    print("    *** Kindly DO NOT include .xlsx")
+    print("    *** Kindly DO NOT include .csv")
     print(" help                      = Displays User Help")
     print(" quit                      = Exit program")
     print(" run                       = Executes Volatility, RECmd and EvtxECmd to provide a single csv output")
@@ -370,7 +372,7 @@ def main():
     evtx_output_folder= "./evtx_out/"
     
     # # 4) File Name
-    output_filename = "Grp5s4n6Tool.xlsx"
+    output_filename = "Grp5s4n6Tool.csv"
     
     call_print()
     show_settings(memory_file, output_filename)
@@ -390,7 +392,7 @@ def main():
             print("**Successfully changed memory filename to " + memory_file + "\n")
         elif user_input.startswith("change CSV "):
             change = user_input.split(" ")
-            output_filename = change[2] + ".xlsx"
+            output_filename = change[2] + ".csv"
             print("**Successfully changed CSV filename to " + output_filename + "\n")
         elif user_input == "help":
             show_help()
