@@ -16,7 +16,27 @@ import re
 import sys
 import subprocess
 from pathlib import Path
+from datetime import datetime, timezone
 import pandas as pd
+
+event_id_to_artifact = {
+    1: "Event Logs: Process Execution",
+    30: "Event Logs: System Power Event",
+    42: "Event Logs: System Power Event",
+    100: "Event Logs: Application Error",
+    101: "Event Logs: Task Execution",
+    306: "Event Logs: System Power Event",
+    701: "Event Logs: Service Status Change",
+    800: "Event Logs: Audit Log Cleared",
+    900: "Event Logs: Windows Update Event",
+    904: "Event Logs: Windows Update Event",
+    1015: "Event Logs: Suspicious Behavior Detected",
+    1016: "Event Logs: Registry Access Event",
+    1018: "Event Logs: Memory Dump Event",
+    4000: "Event Logs: Network Connection Event",
+    4001: "Event Logs: Network Connection Event",
+    5008: "Event Logs: Security Alert"   
+}
 
 def run_volatility_hivelist(volatility_path, memory_file):
     """    
@@ -193,22 +213,44 @@ def process_evtx_with_evtxecmd(evtx_directory, evtxecmd_path, evtx_output_folder
     except subprocess.CalledProcessError as e:
         print(f"[ERROR] EvtxECmd failed for files in '{evtx_directory}':\n{e}")
 
+
+def extract_time(file_path):
+    try:
+        creation_time = os.stat(file_path).st_ctime
+        return datetime.fromtimestamp(creation_time, tz=timezone.utc).strftime('%Y-%m-%d %H:%M:%S')
+    except Exception as e:
+        return datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')
     
-def read_csv_files(folder_path):
+    
+def read_csv_files(folder_path, timestamp_col):
     all_data = []
     for file in os.listdir(folder_path):
         if file.endswith(".csv"):
             file_path = os.path.join(folder_path, file)
             df = pd.read_csv(file_path)
+            
+            if timestamp_col and timestamp_col in df.columns:
+                df[timestamp_col] = pd.to_datetime(df[timestamp_col], errors='coerce').dt.tz_localize(None)
+                df.insert(0, "NormalizedTimestamp", df[timestamp_col].dt.strftime('%Y-%m-%d %H:%M:%S'))
+                
+            df.insert(1, "ExtractionTimestamp", extract_time(file_path))
+                
+            if "EventId" in df.columns:
+                df.insert(2, "ArtifactType", df["EventId"].map(event_id_to_artifact).fillna("Event Logs")) 
+                
+            if "HiveType" in df.columns:
+                df.insert(2, "ArtifactType", df["HiveType"].fillna(""))
+            
             all_data.append(df)
 
     if all_data:
         return pd.concat(all_data, ignore_index=True)
     return pd.DataFrame()
 
+
 def combining_files(folder1, folder2, output_file):
-    df1 = read_csv_files(folder1)
-    df2 = read_csv_files(folder2)
+    df1 = read_csv_files(folder1, "LastWriteTimestamp")
+    df2 = read_csv_files(folder2, "TimeCreated")
 
     with open(output_file, "w", encoding="utf-8", newline="") as file_open:
         file_open.write("RECmd Output\n")
