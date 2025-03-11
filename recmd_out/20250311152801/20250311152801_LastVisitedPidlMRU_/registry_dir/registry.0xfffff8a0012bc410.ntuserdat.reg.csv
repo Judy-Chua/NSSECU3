@@ -1,0 +1,80 @@
+﻿ValueName,BatchKeyPath,MruPosition,BatchValueName,Executable,AbsolutePath,OpenedOn,Details
+0,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU,0,0,MRCv120.exe,Computers and Devices\tsclient\\\tsclient\C\\Windows\\Lab 1,2025-02-04 16:26:17.5037855,"Type: Root folder: GUID, Value: Computers and Devices
+
+
+Property Sheets
+Sheet #0 => Guid: b725f130-47ef-101a-a5f1-02608c9eebac, Key: 10 ==> Item Name Display, Value: tsclient
+Sheet #1 => Guid: debda43a-37b3-4383-91e7-4498da2995ab, Key: 3 ==> (Description not available), Value: 0
+Sheet #2 => Guid: 0ae54373-43be-4fad-85e4-69dc8633986e, Key: 11 ==> (Description not available), Value: True
+Sheet #3 => Guid: 28636aa6-953d-11d2-b5d6-00c04fd918d0, Key: 31 ==> Network Provider, Value: Microsoft Terminal Services
+
+
+
+
+Type: Variable: Users property view, Value: tsclient
+
+
+Type: Network location, Value: \\tsclient\C
+
+
+Type: Directory, Value: 
+
+Extension blocks found: 1
+---------------------- Block 0 (Beef0004)----------------------
+Long name: 
+Localized name: @shell32.dll,-21813
+Created: 5/7/2022 5:17:24 AM +00:00
+Last access: 2/4/2025 1:36:18 PM +00:00
+MFT entry/sequence #: 1068000702480/65535 (0xF8A9CD7010/0xFFFF)
+File system hint: NTFS
+
+--------------------------------------------------
+Short name: Users
+Modified: 2/2/2025 2:41:10 PM +00:00
+
+
+Type: Directory, Value: Windows
+
+Extension blocks found: 1
+---------------------- Block 0 (Beef0004)----------------------
+Long name: Windows
+Created: 2/2/2025 2:36:46 PM +00:00
+Last access: 2/4/2025 1:36:56 PM +00:00
+MFT entry/sequence #: 1068078193408/65535 (0xF8AE6BDB00/0xFFFF)
+File system hint: NTFS
+
+--------------------------------------------------
+Short name: Windows
+Modified: 2/2/2025 2:40:08 PM +00:00
+
+
+Type: Directory, Value: 
+
+Extension blocks found: 1
+---------------------- Block 0 (Beef0004)----------------------
+Long name: 
+Localized name: @shell32.dll,-21770
+Created: 2/2/2025 2:36:46 PM +00:00
+Last access: 2/4/2025 1:36:52 PM +00:00
+MFT entry/sequence #: 1067982201328/65535 (0xF8A8B321F0/0xFFFF)
+File system hint: NTFS
+
+--------------------------------------------------
+Short name: Documents
+Modified: 2/4/2025 12:20:50 PM +00:00
+
+
+Type: Directory, Value: Lab 1
+
+Extension blocks found: 1
+---------------------- Block 0 (Beef0004)----------------------
+Long name: Lab 1
+Created: 2/4/2025 4:21:00 PM +00:00
+Last access: 2/4/2025 4:21:08 PM +00:00
+
+--------------------------------------------------
+Short name: LAB1~1
+Modified: 2/4/2025 4:21:08 PM +00:00
+
+
+"

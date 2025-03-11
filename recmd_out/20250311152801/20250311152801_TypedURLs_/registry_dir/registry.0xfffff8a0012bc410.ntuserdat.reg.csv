@@ -1,0 +1,4 @@
+﻿Timestamp,BatchKeyPath,Url,BatchValueName,Slack
+,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Internet Explorer\TypedURLs,https://download.microsoft.com/download/5/6/2/562A10F9-C9F4-4313-A044-9C94E0A8FAC8/dotNetFx40_Client_x86_x64.exe,url1,
+,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Internet Explorer\TypedURLs,http://www.bing.com/search?q=ftk+imager&FORM=IE8SRC,url2,
+,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Internet Explorer\TypedURLs,http://go.microsoft.com/fwlink/?LinkId=69157,url3,

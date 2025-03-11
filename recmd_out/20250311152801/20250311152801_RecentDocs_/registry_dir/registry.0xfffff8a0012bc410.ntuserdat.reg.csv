@@ -1,0 +1,25 @@
+﻿Extension,BatchKeyPath,ValueName,BatchValueName,TargetName,LnkName,MruPosition,OpenedOn,ExtensionLastOpened
+RecentDocs,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,7,7,Lab 1,Lab 1.lnk,0,2025-02-04 16:26:17.5717894,2025-02-04 16:26:17.5717894
+RecentDocs,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,6,6,memdump.raw,memdump.raw.lnk,1,,2025-02-04 16:26:17.5597887
+RecentDocs,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,5,5,Documentation,Documentation.lnk,2,,
+RecentDocs,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,4,4,DocumentationAndEULA.txt,DocumentationAndEULA.lnk,3,,2025-02-04 15:47:12.9501745
+RecentDocs,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,3,3,KAPE,KAPE.lnk,4,,
+RecentDocs,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,2,2,Get-KAPEUpdate.ps1,Get-KAPEUpdate.lnk,5,,2025-02-04 15:47:08.8049374
+RecentDocs,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,1,1,My Documents,My Documents.lnk,6,,
+RecentDocs,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,0,0,trial1.raw,trial1.raw.lnk,7,,
+Folder,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,3,3,Lab 1,Lab 1.lnk,0,2025-02-04 16:26:17.5717894,
+Folder,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,2,2,Documentation,Documentation.lnk,1,,
+Folder,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,1,1,KAPE,KAPE.lnk,2,,
+Folder,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,0,0,My Documents,My Documents.lnk,3,,
+.txt,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.txt,0,0,DocumentationAndEULA.txt,DocumentationAndEULA.lnk,0,2025-02-04 15:47:12.9501745,
+.raw,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.raw,1,1,memdump.raw,memdump.raw.lnk,0,2025-02-04 16:26:17.5597887,
+.raw,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.raw,0,0,trial1.raw,trial1.raw.lnk,1,,
+.ps1,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.ps1,0,0,Get-KAPEUpdate.ps1,Get-KAPEUpdate.lnk,0,2025-02-04 15:47:08.8049374,
+.ps1,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.ps1,0,0,Get-KAPEUpdate.ps1,Get-KAPEUpdate.lnk,0,2025-02-04 15:47:08.8049374,
+.raw,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.raw,1,1,memdump.raw,memdump.raw.lnk,0,2025-02-04 16:26:17.5597887,
+.raw,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.raw,0,0,trial1.raw,trial1.raw.lnk,1,,
+.txt,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.txt,0,0,DocumentationAndEULA.txt,DocumentationAndEULA.lnk,0,2025-02-04 15:47:12.9501745,
+Folder,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,3,3,Lab 1,Lab 1.lnk,0,2025-02-04 16:26:17.5717894,
+Folder,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,2,2,Documentation,Documentation.lnk,1,,
+Folder,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,1,1,KAPE,KAPE.lnk,2,,
+Folder,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,0,0,My Documents,My Documents.lnk,3,,

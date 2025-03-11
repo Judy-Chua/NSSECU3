@@ -1,0 +1,3 @@
+﻿Timestamp,BatchKeyPath,KeyName,BatchValueName,ProfileImagePath,LastLogonTime,LastLogoffTime
+2009-07-14 04:53:25.7804181,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-18,S-1-5-18,Multiple,%systemroot%\system32\config\systemprofile,,
+2025-02-04 16:25:27.2569115,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-21-4155376174-509444641-1072743315-1000,S-1-5-21-4155376174-509444641-1072743315-1000,Multiple,C:\Users\User,,
